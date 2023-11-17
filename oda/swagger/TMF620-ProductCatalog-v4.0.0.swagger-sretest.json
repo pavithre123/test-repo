@@ -3724,25 +3724,20 @@
         }
       }
     },
-    "components": {
-      "securitySchemes": {
-        "default": {
-          "type": "oauth2",
-          "flows": {
-            "implicit": {
-              "authorizationUrl": "https://test.com",
-              "scopes": {
-                "srescopetwo": "srescopetwo description",
-                "srescope": "srescope",
-                "srescopeone": "srescopeone description"
-              },
-              "x-scopes-bindings": {
-                "srescope": "admin",
-                "srescopetwo": "admin",
-                "srescopeone": "admin"
-              }
-            }
-          }
+    "securityDefinitions": {
+      "default": {
+        "type": "oauth2",
+        "authorizationUrl": "https://test.com",
+        "flow": "implicit",
+        "scopes": {
+          "srescopetwo": "srescopetwo description",
+          "srescope": "srescope",
+          "srescopeone": "srescopeone description"
+        },
+        "x-scopes-bindings": {
+          "srescope": "admin",
+          "srescopetwo": "admin",
+          "srescopeone": "admin"
         }
       }
     },
