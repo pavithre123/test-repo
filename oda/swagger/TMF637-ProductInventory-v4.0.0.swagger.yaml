@@ -104,7 +104,6 @@ paths:
       security:
         - default:
             - srescope
-            - srescopeone
     post:
       operationId: createProduct
       summary: Creates a Product
