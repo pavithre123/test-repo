@@ -125,8 +125,7 @@
         "security": [
           {
             "default": [
-              "srescope",
-              "srescopeone"
+              "srescope"
             ]
           }
         ]
