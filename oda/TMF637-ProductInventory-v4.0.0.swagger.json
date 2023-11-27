@@ -903,14 +903,10 @@
       "authorizationUrl": "https://test.com",
       "flow": "implicit",
       "scopes": {
-        "srescopetwo": "srescopetwo description",
-        "srescope": "srescope",
-        "srescopeone": "srescopeone description"
+        "srescopefour": "srescopefour description"
       },
       "x-scopes-bindings": {
-        "srescope": "admin",
-        "srescopetwo": "admin",
-        "srescopeone": "admin"
+        "srescopefour": "pavirole"
       }
     }
   },
