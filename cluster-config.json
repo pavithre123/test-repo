@@ -1,0 +1,25 @@
+{
+  "release-email": "pqr@axiatadigitallabs.com",
+  "cluster": [
+    {
+      "name": "nextgen-dev",
+      "expiary": "22-01-2024",
+      "email": "xyz@axiatadigitallabs.com",
+      "services": {
+        "api-service": "master",
+        "gateway": "master",
+        "configurator": "master"
+      }
+    },
+    {
+      "name": "nextgen-a",
+      "expiary": "31-01-2024",
+      "email": "xyz@axiatadigitallabs.com",
+      "services": {
+        "api-service": "master",
+        "gateway": "master",
+        "configurator": "master"
+      }
+    }
+  ]
+}
